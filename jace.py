@@ -6451,6 +6451,9 @@ def main():
     print(f"   {PL} ╭───────────────────────╮")
     print(f"   {PL} │   {BG1} {A} ACCOUNT CHECKER {RW}  {PL}│──── [{BG2}{A} 02/B {RW}]──── {red}◉ {yellow}◉ {green}◉  {Q6}LIVE ACCOUNT CHECKER ")
     print(f"    {PL}╰───────────────────────╯")
+    print(f"   {PL} ╭───────────────────────╮")
+    print(f"   {PL} │   {BG1} {A} ACCOUNT REMOVER {RW}  {PL}│──── [{BG2}{A} 00/Z {RW}]──── {red}◉ {yellow}◉ {green}◉  {Q6}DISABLE ACCOUNT  ")
+    print(f"    {PL}╰───────────────────────╯")
     print(f" {PL}╭────────────────────────────────────────────────────────────────────────╮")                   
     print(f"{PL} │                  {PL}   𝗥 𝗘 𝗔 𝗖 𝗧 𝗜 𝗢 𝗡  𝗕 𝗢 𝗢 𝗦 𝗧 𝗜 𝗡 𝗚                  {PL} │")
     print(f"{PL} ╰────────────────────────────────────────────────────────────────────────╯ """)
@@ -6507,6 +6510,8 @@ def main():
         live_comment()
     if choice == '25' or choice == 'Z':
         pass
+    if choice == '0' or choice == 'Z':
+        check()
     else:
         print("Invalid choice, exiting.")
 
